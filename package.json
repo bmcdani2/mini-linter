@@ -1,0 +1,24 @@
+{
+  "name": "mini-linter",
+  "version": "1.0.0",
+  "description": "a mini-linter for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmcdani2/mini-linter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmcdani2/mini-linter/issues"
+  },
+  "homepage": "https://github.com/bmcdani2/mini-linter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
